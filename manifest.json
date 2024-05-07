@@ -1,1 +1,34 @@
-{"short_name":"dev","name":"j1zuz","icons":[{"src":"/assets/img/logo%20(192%20×%20192 px)%20.webp?h=167cc420c7ba3684e3a6717e3654b07c","type":"image/png","sizes":"192x192"},{"src":"/assets/img/logo%20(512%20×%20512 px).webp?h=dc9acb6ad9fe55b9417fa7026aa604dd","type":"image/png","sizes":"512x512"}],"start_url":"./","display":"fullscreen"}
+{
+    "icons": [
+      {
+        "src": "assets/img/photo.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "maskable"
+      },
+      {
+        "src": "assets/img/photo.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#000000",
+    "theme_color": "#000000",
+    "display": "standalone",
+    "name": "Jesus Lopez",
+    "short_name": "j1zuz",
+    "dir": "ltr",
+    "scope": "/",
+    "display_override": [
+      "window-controls-overlay",
+      "browser",
+      "standalone"
+    ],
+    "categories": [
+      "security",
+      "shopping",
+      "social"
+    ]
+}
